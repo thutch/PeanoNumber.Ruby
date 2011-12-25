@@ -1,5 +1,8 @@
-class Zero < PeanoNumber
+class Zero < Succ
 
+	def initialize()
+		#do nothing;
+	end
 
 	def to_s()
 		return "zero"

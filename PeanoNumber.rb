@@ -1,8 +1,10 @@
 #!/usr/bin/env ruby
+$LOAD_PATH << File.dirname(__FILE__)
+require 'Succ'
+require 'Zero'
 
-	def main()
-	
 		x = Succ.fromInteger(3)
 		y = Succ.fromInteger(2)
-		print(x.to_s + " + " + y.to_s + " = " + x.add(y).to_s)
-	end
+		result = x.add(y)
+		print(x.to_s + " + " + y.to_s + " = " + result.to_s + "\n")
+
