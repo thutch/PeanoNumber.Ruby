@@ -5,6 +5,6 @@ require 'Zero'
 
 		x = Succ.fromInteger(3)
 		y = Succ.fromInteger(2)
-		result = x.add(y)
+		result = x + y
 		print(x.to_s + " + " + y.to_s + " = " + result.to_s + "\n")
 
