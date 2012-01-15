@@ -31,6 +31,10 @@ class Succ
 		return Succ.of(self)
 	end
 	
+	def + peanoNumber
+		return add(peanoNumber)
+	end
+	
 	def add(peanoNumber)
 		subtotal = pred.add(peanoNumber)
 		return subtotal.succ
